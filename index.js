@@ -1,11 +1,11 @@
 const express =require('express')
 
-const app = express();
+const index = express();
 
-app.post('/post',(req,res)=>{
+index.post('/post',(req,res)=>{
     res.send("hello")
 })
 
-app.listen(3000)
+index.listen(3000)
 
 console.log("coneected");
